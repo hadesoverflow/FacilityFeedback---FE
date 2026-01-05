@@ -1,21 +1,21 @@
 ### 1) Mô tả Project
-````md
-# 🛠️ Facility Feedback & Helpdesk Request System – Frontend (FE)
+
+🛠️ Facility Feedback & Helpdesk Request System – Frontend (FE)
 
 Frontend cho hệ thống quản lý phản ánh CSVC/Helpdesk theo mô hình **🎫 Ticket + ⏱️ SLA**. Ứng dụng được xây dựng bằng **⚛️ React + 🟦 TypeScript (⚡ Vite)**, UI với **🎨 TailwindCSS** và component theo phong cách **🧩 shadcn/ui + Radix**. FE kết nối với Backend (🟣 ASP.NET Core API) để đăng nhập, quản lý ticket, nhắn tin, thông báo, lịch/ca và báo cáo theo vai trò.
 
 ---
 
-## ✨ Tính năng chính
+✨ Tính năng chính
 
-### 👥 Theo vai trò
+👥 Theo vai trò
 - **🎓 Student**
   - 📝 Tạo ticket phản ánh/yêu cầu hỗ trợ (CSVC, WiFi, thiết bị…)
   - 📋 Xem danh sách ticket, 🔎 lọc theo trạng thái
   - 🔍 Xem chi tiết ticket, 🧾 lịch sử trạng thái, 💬 bình luận/trao đổi
   - 🔔 Nhận thông báo khi ticket đổi trạng thái / được phân công
 
-- **🧑‍🔧 Staff**
+- 🧑‍🔧 Staff**
   - ✅ Xem ticket được giao, 🔄 cập nhật trạng thái xử lý
   - 💬 Trao đổi qua comment/message
   - 📅 Xem lịch/ca và 📊 thống kê liên quan công việc
@@ -27,7 +27,7 @@ Frontend cho hệ thống quản lý phản ánh CSVC/Helpdesk theo mô hình **
   - 👇 Phân công xử lý ticket, 🧩 xem ticket trùng (duplicates)
   - 📈 Báo cáo SLA, thống kê ticket
 
-### 🧠 Tổng quan chức năng
+🧠 Tổng quan chức năng
 - 🔐 Login + lưu session (localStorage)
 - 🧭 Dashboard theo role + điều hướng theo quyền
 - 🎫 Ticket lifecycle: tạo → assign → xử lý → ✅ resolved/🔒 closed
@@ -37,7 +37,7 @@ Frontend cho hệ thống quản lý phản ánh CSVC/Helpdesk theo mô hình **
 
 ---
 
-## 🧰 Công nghệ sử dụng
+🧰 Công nghệ sử dụng
 
 - ⚛️ **React + 🟦 TypeScript**
 - ⚡ **Vite**
@@ -48,7 +48,7 @@ Frontend cho hệ thống quản lý phản ánh CSVC/Helpdesk theo mô hình **
 
 ---
 
-## ✅ Yêu cầu môi trường
+✅ Yêu cầu môi trường
 
 - 🟩 **Node.js >= 18** (khuyến nghị 18/20)
 - 📦 npm (hoặc yarn/pnpm tuỳ bạn)
@@ -57,7 +57,7 @@ Frontend cho hệ thống quản lý phản ánh CSVC/Helpdesk theo mô hình **
 
 ---
 
-## 🚀 Cài đặt & chạy dự án
+🚀 Cài đặt & chạy dự án
 
 ### 1) 📥 Cài dependencies
 ```bash
